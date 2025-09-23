@@ -26,10 +26,10 @@ export default function Home() {
   ];
 
   const bgColors = [
-    'rgb(228, 228, 228)',
+    'rgb(198, 228, 228)',
     'rgb(111, 66, 210)',
     'rgb(182, 12, 12)',
-    'rgb(88, 245, 67)',
+    'rgb(88, 225, 67)',
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
