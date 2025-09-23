@@ -27,7 +27,7 @@ export default function Home() {
 
   const bgColors = [
     'rgb(228, 228, 228)',
-    'rgb(167, 66, 210)',
+    'rgb(111, 66, 210)',
     'rgb(182, 12, 12)',
     'rgb(88, 245, 67)',
   ];
