@@ -126,7 +126,9 @@ export default function Home() {
                 </h4>
               </Link>
             </div>
-            <Image src="/extension.png" alt="This is our extension" width={300} height={140} />
+            <AnimatedSection delay={300}>
+              <Image src="/extension.png" alt="This is our extension" width={300} height={140} />
+            </AnimatedSection>
           </div>
         </AnimatedSection>
 
@@ -135,15 +137,25 @@ export default function Home() {
             <h4 className='mb-8 text-lg'>
               We also have two website ideas in progress,<br /> which will be introduced here on our main page.
             </h4>
-            <Image src='/webpage1.png' alt='This is our first web idea' width={1200} height={480} />
+            <AnimatedSection delay={400}>
+              <Image src='/webpage1.png' alt='This is our first web idea' width={1200} height={480} />
+            </AnimatedSection>
           </div>
         </AnimatedSection>
 
         <AnimatedSection delay={100}>
-          <div>
-            <h4 className='text-lg border-b border-gray-600 pb-10 sm:pr-30 md:pr-50 lg:pr-80 sm:pl-30 md:pl-60 lg:pl-80 mb-10'>
+          <div className='flex flex-col justify-center'>
+            <h4 className='text-lg mb-3'>
               Stay tuned as we continue to share our work and upcoming projects with you.
             </h4>
+            <Link href='/websitepage'>
+              <h4 className='text-lg cursor-pointer gold'>
+                Go to extension page
+              </h4>
+            </Link>
+            <div className="text-lg mb-10 mt-10">
+              <p>Made by Do Young Kwak, 박주현</p>
+            </div>
           </div>
         </AnimatedSection>
       </div>
