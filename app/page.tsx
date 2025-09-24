@@ -150,7 +150,7 @@ export default function Home() {
             </h4>
             <Link href='/websitepage'>
               <h4 className='text-lg cursor-pointer gold'>
-                Go to extension page
+                Go to website page
               </h4>
             </Link>
             <div className="text-lg mb-10 mt-10">
